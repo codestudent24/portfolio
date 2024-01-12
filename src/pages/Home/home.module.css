@@ -1,0 +1,68 @@
+.home {
+  position: relative;
+  margin: 150px auto;
+  padding: 20px;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.home h2 {
+  margin: 2rem 0 1rem;
+  font-size: 2rem;
+  color: #E6E6E6;
+}
+
+.home h1 {
+  margin: 0 0 2rem;
+  font-size: 3rem;
+  color: #194BFD;
+}
+
+.photoContainer {
+  position: relative;
+  top: 50px;
+  width: fit-content;
+}
+
+.photoContainer img {
+  background-size: 100%;
+  border-radius: 10%;
+  box-shadow: 4px 4px 5px #E6E6E630;
+  width: 450px;
+  height: 375px;
+}
+
+.lightBackground {
+  position: absolute;
+  z-index: -2;
+  top: 25px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  background: linear-gradient(25deg, rgba(23,23,26,0) 0%, rgba(23,23,26,1) 100%);
+}
+
+.subtract1,
+.subtract2,
+.subtract3 {
+  position: absolute;
+  z-index: 2;
+}
+
+.subtract1 {
+  top: 100px;
+  right: -50px;
+}
+
+.subtract2 {
+  top: 335px;
+  right: 600px;
+}
+
+.subtract3 {
+  top: -100px;
+  right: 380px;
+}

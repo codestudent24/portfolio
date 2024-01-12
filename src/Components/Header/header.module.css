@@ -1,0 +1,56 @@
+header {
+  padding: 10px 50px;
+  background-color: #17171977;
+}
+
+header a svg:hover,
+header a svg:hover path {
+  fill: #E6E6E6;
+}
+
+.contacts {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > div,
+.common > div {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.link {
+  display: inline-block;
+  margin-left: 2rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.activeLink {
+  margin-left: 2rem;
+  color: #E6E6E6;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #E6E6E6;
+  text-decoration: underline;
+}
+
+.itemSVG {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+}
+
+.itemSVG svg {
+  margin-right: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
