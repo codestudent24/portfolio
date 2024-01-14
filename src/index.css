@@ -6,3 +6,9 @@ html {
 body {
   margin: 0;
 }
+
+@media (width < 720px) {
+  html {
+    font-size: 12px;
+  }
+}
