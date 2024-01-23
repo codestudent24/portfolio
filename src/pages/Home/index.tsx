@@ -26,10 +26,11 @@ export default function Home() {
         <div className={styles.lightBackground} />
       </div>
       <Button
-        text='View Porfolio'
         isPrimary={false}
         callback={() => {navigate('/projects')}}
-      />
+      >
+        View Porfolio
+      </Button>
     </>
   )
 }
