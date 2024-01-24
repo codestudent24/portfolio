@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <div className={styles.home}>
-        <div>
+        <div className={styles.description}>
           <h2>Frontend developer</h2>
           <h1>Denis Goncharenko</h1>
-          <p>2018 - 2023 Data Security specialist</p>
+          <p>2018 - 2024 Data Security specialist</p>
           <p>2022 - 2023 Rolling Scopes School Trainee</p>
           <p>from 2023 Freelance Frontend (React) Developer</p>
         </div>

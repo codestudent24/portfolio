@@ -54,3 +54,9 @@ a.activeLink {
   width: 20px;
   height: 20px;
 }
+
+@media (width < 720px) {
+  header {
+    padding: 10px;
+  }
+}

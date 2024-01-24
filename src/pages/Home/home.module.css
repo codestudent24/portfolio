@@ -20,6 +20,10 @@
   color: #194BFD;
 }
 
+.description p {
+  font-size: 1.5rem;
+}
+
 .photoContainer {
   position: relative;
   top: 50px;
@@ -65,4 +69,41 @@
 .subtract3 {
   top: -100px;
   right: 380px;
+}
+
+@media (width < 720px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+  }
+
+  .home .description {
+    order: 2;
+  }
+
+  .home .photoContainer {
+    order: 1;
+  }
+
+  .subtract2 {
+    top: 510px;
+    right: 80px;
+  }
+
+  .subtract3 {
+    top: -100px;
+    right: 180px;
+  }
+}
+
+@media (width < 480px) {
+  .home {
+    margin: 50px auto;
+  }
+
+  .subtract2 {
+    top: 415px;
+  }
 }

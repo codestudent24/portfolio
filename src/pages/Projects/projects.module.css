@@ -112,6 +112,12 @@
   }
 
   .projectList img {
+    width: 320px;
+  }
+}
+
+@media (width < 360px) {
+  .projectList img {
     display: none;
   }
 }
