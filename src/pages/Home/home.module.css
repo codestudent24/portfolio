@@ -80,6 +80,8 @@
   }
 
   .home .description {
+    position: relative;
+    top: 50px;
     order: 2;
   }
 
