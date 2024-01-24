@@ -3,6 +3,7 @@ import RootLayout from './Layouts/RootLayout'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import About from './pages/About'
+import ErrorPage from './pages/ErrorPage'
 import './App.css'
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: '*',
+    element: <ErrorPage />
+  }
 ])
 
 function App() {
