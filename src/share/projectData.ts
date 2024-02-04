@@ -2,6 +2,21 @@ import { ProjectInfo } from "./types";
 
 export const projectData: ProjectInfo[] = [
   {
+    name: 'Employees',
+    description: 'Fullstack React app with React, TypeScript, RTK Query, Express, Prisma, auth with JWT Token',
+    skills: [
+      'React',
+      'TypeScript',
+      'RTK Query',
+      'JWT token auth',
+      'Express',
+      'Prisma',
+      'Ant Design'
+    ],
+    image: 'Employees.jpg',
+    github: 'https://github.com/codestudent24/employees/',
+  },
+  {
     name: 'GraphiQl',
     description: 'GraphiQL is a playground/IDE for graphQL requests',
     skills: [

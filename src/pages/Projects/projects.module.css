@@ -24,6 +24,7 @@
 }
 
 .projectInfo h3 {
+  margin: 16px 0 8px;
   text-align: left;
   font-size: 2rem;
   color: #194BFD;
@@ -36,8 +37,14 @@
 }
 
 .projectInfo a {
+  display: block;
+  width: fit-content;
+  margin: 8px auto;
   text-decoration: none;
-  color: inherit;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #194BFD;
+  transition: color 0.2s ease-in-out;
 }
 
 .projectInfo a:hover {
@@ -71,8 +78,15 @@
   color: #E6E6E6;
   background-color: transparent;
   border: none;
+  border-radius: 20px;
   padding: 0;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.projectName button:hover {
+  color: #194BFD;
+  transform: scale(1.05);
 }
 
 @keyframes show {
